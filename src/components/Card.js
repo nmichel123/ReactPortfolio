@@ -1,5 +1,6 @@
 import React from 'react'; 
 import Selfy from '../assets/selfy.JPG'
+import Resume from '../assets/NicoMichelResume.pdf'
 import '../styles/Card.css'
 
 function Card () {
@@ -15,10 +16,9 @@ function Card () {
     I aim to leverage my coding skills to create mobile-first applications with solid front and back ends. With knowledge of various coding languages, database technologies,
     and prior knowledge of editing and art softwares, I will be able to bring a unique perspective that is sure to re-enforce and elevate any project I work on.
     </p>
-    <a href="#" class="btn btn-dark">Link to Resume</a>
+    <a href={Resume} rel="noopener noreferrer" target="_blank" class="btn btn-dark">Link to Resume</a>
     <br />
     <br />
-    {/* <br /> */}
   </div>
     </div>
     )
