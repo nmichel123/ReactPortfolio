@@ -10,7 +10,8 @@ function ProjectItem2 () {
     <br></br>
     <br></br>
     <p class="card-text">A one stop shop for finding concert videos, cover art, and a method to download the videos shown!</p>
-    <p class="card-text">Last updated 3 mins ago</p>
+    <a href="https://github.com/nmichel123/Project1" rel="noopener noreferrer" target="_blank"> <p class="card-text">GitHub Repository</p></a>
+    <a href="https://nmichel123.github.io/Project1/" rel="noopener noreferrer" target="_blank"> <p class="card-text">Deployed Website</p></a>
   </div>
     </div>
     )

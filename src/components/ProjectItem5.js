@@ -10,7 +10,7 @@ function ProjectItem5 () {
     <br></br>
     <br></br>
     <p class="card-text">A command line application that allows a user to view, add and update employees and their roles in a MySQL database!</p>
-    <p class="card-text">Last updated 3 mins ago</p>
+    <a href="https://github.com/nmichel123/MYSQLEmployeeTracker" rel="noopener noreferrer" target="_blank"> <p class="card-text">GitHub Repository</p></a>
   </div>
     </div>
     )

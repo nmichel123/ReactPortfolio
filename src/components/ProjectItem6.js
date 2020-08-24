@@ -10,7 +10,8 @@ function ProjectItem6 () {
     <br></br>
     <br></br>
     <p class="card-text">A simple budget tracker that allows a user to make updates while offline!</p>
-    <p class="card-text">Last updated 3 mins ago</p>
+    <a href="https://github.com/nmichel123/Budget-Tracker" rel="noopener noreferrer" target="_blank"> <p class="card-text">GitHub Repository</p></a>
+    <a href="https://serene-retreat-85625.herokuapp.com/" rel="noopener noreferrer" target="_blank"> <p class="card-text">Deployed Website</p></a>
   </div>
     </div>
     )

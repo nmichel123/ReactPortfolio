@@ -1,5 +1,6 @@
 import React from 'react';
 import CoolPlaces from '../assets/coolplaces.png'
+import '../styles/Text.css'
 
 function ProjectItem1 () {
     return (
@@ -8,7 +9,8 @@ function ProjectItem1 () {
   <div class="card-img-overlay">
     <h3 class="card-title">Cool Places</h3>
     <p class="card-text">A website where people can log cool places on a map and leave reviews!</p>
-    <p class="card-text">Last updated 3 mins ago</p>
+    <a href="https://github.com/nmichel123/Project2" rel="noopener noreferrer" target="_blank"> <p class="card-text">GitHub Repository</p></a>
+    <a href="https://floating-beach-29144.herokuapp.com/" rel="noopener noreferrer" target="_blank"> <p class="card-text">Deployed Website</p></a>
   </div>
     </div>
     )

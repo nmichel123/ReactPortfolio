@@ -12,7 +12,8 @@ function ProjectItem3 () {
     <br/>
     <br/>
     <p class="card-text">A react built table that allows for sorting of all categories and searching employees by first name!</p>
-    <p class="card-text">Last updated 3 mins ago</p>
+    <a href="https://github.com/nmichel123/Employee-Directory" rel="noopener noreferrer" target="_blank"> <p class="card-text">GitHub Repository</p></a>
+    <a href="https://arcane-scrubland-39587.herokuapp.com/" rel="noopener noreferrer" target="_blank"> <p class="card-text">Deployed Website</p></a>
   </div>
     </div>
     )

@@ -10,7 +10,7 @@ function ProjectItem4 () {
     <br></br>
     <br></br>
     <p class="card-text">A command line application that prompts for and receives user input and renders a README with accurate section headings!</p>
-    <p class="card-text">Last updated 3 mins ago</p>
+    <a href="https://github.com/nmichel123/README-Generator" rel="noopener noreferrer" target="_blank"> <p class="card-text">GitHub Repository</p></a>
   </div>
     </div>
     )
