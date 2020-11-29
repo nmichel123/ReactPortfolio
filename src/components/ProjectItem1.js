@@ -1,6 +1,5 @@
 import React from 'react';
 import CoolPlaces from '../assets/coolplaces.png'
-import '../styles/Text.css'
 
 function ProjectItem1 () {
     return (
