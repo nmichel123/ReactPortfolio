@@ -5,24 +5,13 @@ import '../Navbar/style.css'
 class Navbar extends Component {
   listener = null;
   state = {
-    nav:false
+    nav:true
   }
   componentDidMount() {
     window.addEventListener("scroll", this.handleScroll)
   }
   componentWillUnmount() {
     window.removeEventListener('scroll');
-  }
-  handleScroll = () => {
-    if (window.pageYOffset > 140) {
-      if(!this.state.nav) {
-        this.setState({ nav:true });
-      }
-    }else {
-      if(this.state.nav) {
-        this.setState({ nav: false })
-      }
-    }
   }
 
   render() {
@@ -59,6 +48,7 @@ class Navbar extends Component {
       Contact
       </Link>
   </div>
-)}}; 
+)}
+}; 
 
 export default Navbar; 
