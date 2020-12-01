@@ -1,12 +1,10 @@
-import React from 'react'; 
-import Navbar from '../components/Navbar';
+import React, {Component} from 'react'; 
 import ContactInfo from '../components/Contact';
 import Footer from '../components/Footer';
 
 function Contact () {
     return (
-    <div>
-    <Navbar />
+    <div className="contact-section" id="contact">
     <ContactInfo />
     <Footer />
     </div>

@@ -1,28 +1,64 @@
-import React from 'react'; 
+import React, { Component, useEffect } from 'react'; 
+import { Link, animateScroll as scroll } from "react-scroll";
+import '../Navbar/style.css'
 
-function Navbar () {
-    return (
-<div>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="/">About</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="/projects">Projects</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="/contact">Contact</a>
-      </li>
-      {/* <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li> */}
-    </ul>
+class Navbar extends Component {
+  listener = null;
+  state = {
+    nav:false
+  }
+  componentDidMount() {
+    window.addEventListener("scroll", this.handleScroll)
+  }
+  componentWillUnmount() {
+    window.removeEventListener('scroll');
+  }
+  handleScroll = () => {
+    if (window.pageYOffset > 140) {
+      if(!this.state.nav) {
+        this.setState({ nav:true });
+      }
+    }else {
+      if(this.state.nav) {
+        this.setState({ nav: false })
+      }
+    }
+  }
+
+  render() {
+  return (
+<div className={`Nav ${this.state.nav && 'Nav__black'}`}>
+    <Link 
+      activeClass="active"
+      to="projects"
+      spy={true}
+      smooth={true}
+      offset={-70}
+      duration={500}
+      >
+      Projects  
+      </Link>
+      <Link 
+      activeClass="active"
+      to="about"
+      spy={true}
+      smooth={true}
+      offset={-70}
+      duration={500}
+      >
+      About 
+      </Link>
+      <Link 
+      activeClass="active"
+      to="contact"
+      spy={true}
+      smooth={true}
+      offset={-70}
+      duration={500}
+      >
+      Contact
+      </Link>
   </div>
-</nav>
-</div>
-    )}; 
+)}}; 
 
 export default Navbar; 

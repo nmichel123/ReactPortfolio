@@ -10,8 +10,7 @@ import ProjectItem6 from '../components/ProjectItem6';
 
 function Projects () {
     return (
-    <div>
-    <Navbar />
+    <div className="projects-section" id="projects">
     <br />
     <ProjectItem1 />
     <br />
