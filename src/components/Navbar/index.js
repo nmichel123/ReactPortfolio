@@ -1,54 +1,26 @@
-import React, { Component, useEffect } from 'react'; 
-import { Link, animateScroll as scroll } from "react-scroll";
-import '../Navbar/style.css'
+import React, { Component } from "react";
+import logo from "../../assets/logo.png";
 
 class Navbar extends Component {
-  listener = null;
-  state = {
-    nav:true
-  }
-  componentDidMount() {
-    window.addEventListener("scroll", this.handleScroll)
-  }
-  componentWillUnmount() {
-    window.removeEventListener('scroll');
-  }
-
   render() {
-  return (
-<div className={`Nav ${this.state.nav && 'Nav__black'}`}>
-    <Link 
-      activeClass="active"
-      to="projects"
-      spy={true}
-      smooth={true}
-      offset={-70}
-      duration={500}
-      >
-      Projects  
-      </Link>
-      <Link 
-      activeClass="active"
-      to="about"
-      spy={true}
-      smooth={true}
-      offset={-70}
-      duration={500}
-      >
-      About 
-      </Link>
-      <Link 
-      activeClass="active"
-      to="contact"
-      spy={true}
-      smooth={true}
-      offset={-70}
-      duration={500}
-      >
-      Contact
-      </Link>
-  </div>
-)}
-}; 
+    return (
+      <nav className="nav" id="navbar">
+        <div className="nav-content">
+          <img
+            src={logo}
+            className="nav-logo"
+            alt="Logo"
+            onClick={this.scrollToTop}
+          />
+          <ul className="nav-items">
+            <li className="nav-item">Projects</li>
+            <li className="nav-item">About</li>
+            <li className="nav-item">Contact</li>
+          </ul>  
+        </div>
+      </nav>
+    )
+  }
+}
 
 export default Navbar; 

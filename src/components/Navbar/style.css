@@ -4,19 +4,12 @@
     box-sizing: border-box;
   }
   .Nav {
-    height: 70px;
-    width: fit-content;
+    height: 60px;
     margin-bottom: 0;
     position: fixed;
     text-align: center;
-    z-index: 2;
-  }
-  .false {
-    height: 70px;
-    width: fit-content;
-    margin-bottom: 0;
-    position: fixed;
-    text-align: center;
+    top: 0;
+    width: 100%;
     z-index: 2;
   }
   img ~ img  {
