@@ -1,6 +1,11 @@
 #foot {
+    height: 80px;
     text-align: center;
     font-size: smaller;
     color: gray;
     margin: auto;
+}
+
+.navbar.fixed-bottom.navbar-dark.bg-dark {
+    height: 40px;
 }

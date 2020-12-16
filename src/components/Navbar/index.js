@@ -1,12 +1,13 @@
 import React, { Component } from "react";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/nlogo.png";
 import { Link, animateScroll as scroll } from "react-scroll";
+import "./style.css"
 
 
 class Navbar extends Component {
   render() {
     return (
-      <nav className="nav" id="navbar">
+      <div className="navbar" id="navbar">
         <div className="nav-content">
           <img
             src={logo}
@@ -14,8 +15,7 @@ class Navbar extends Component {
             alt="Logo"
             onClick={this.scrollToTop}
           />
-          <ul className="nav-items">
-            <li className="nav-item">
+          <div className="nav-black">
               <Link                 
                 activeClass="active"
                 to="projects"
@@ -24,30 +24,25 @@ class Navbar extends Component {
                 offset={-70}
                 duration={500}>
               Projects</Link>
-            </li>
-            <li className="nav-item">
               <Link                 
                 activeClass="active"
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={170}
                 duration={500}>
               About</Link>
-            </li>
-            <li className="nav-item">
               <Link                 
                 activeClass="active"
                 to="contact"
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={170}
                 duration={500}>
               Contact</Link>
-              </li>
-          </ul>  
+              </div>
         </div>
-      </nav>
+      </div>
     )
   }
 }

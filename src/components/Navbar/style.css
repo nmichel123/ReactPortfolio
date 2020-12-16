@@ -1,27 +1,36 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .Nav {
-    height: 60px;
-    margin-bottom: 0;
-    position: fixed;
-    text-align: center;
-    top: 0;
-    width: 100%;
-    z-index: 2;
-  }
   img ~ img  {
     position: fixed;
     right: 10px;
     top:8px;
   }
-  .Nav__logo{
-    margin-top: 12px;
-  }
-  .Nav__black{
+  .navbar {
+    margin-left: -20px;
+    position: fixed;
     z-index: 2;
-    background: rgba(0, 0, 0, 0.95);
+  }
+  .nav-content {
+    position: fixed;
+    padding-top: 55px;
+    z-index: 2; 
+  }
+  .nav-logo{
+    z-index: 2; 
+    margin-left: 5px;
+    margin-bottom: 5px;
+    height: 60px;
+    width: 60px; 
+  }
+  .nav-black{
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: large;
+    z-index: 2;
+    background: rgba(92, 87, 87, 0.95);
     width: 100%;
+    margin-bottom: 0px;
+  }
+  .navbar :active {
+    border-bottom: 1px solid white 
   }
