@@ -10,13 +10,13 @@
   }
   .nav-content {
     position: fixed;
-    padding-top: 55px;
+    color: whitesmoke;
     z-index: 2; 
   }
   .nav-logo{
     z-index: 2; 
-    margin-left: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     height: 60px;
     width: 60px; 
   }
@@ -24,12 +24,13 @@
     position: fixed;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     text-align: center;
     font-size: large;
+    margin-top: -10px;
     z-index: 2;
-    background: rgba(92, 87, 87, 0.95);
-    width: 100%;
-    margin-bottom: 0px;
+    background: rgba(184, 176, 176, 0.95);
+    width: 100%; 
   }
   .navbar :active {
     border-bottom: 1px solid white 
