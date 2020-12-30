@@ -1,10 +1,10 @@
 import React from 'react';
-import Downloader from '../assets/downloader.png';
+import Downloader from '../../assets/downloader.png';
 
 function ProjectItem2 () {
     return (
     <div class="card bg-dark text-white">
-  <img class="card-img" src = {Downloader} alt = "Downloader"/>
+  <img class="card-img" src = {Downloader} style={{ width:'100%' }} alt = "Downloader"/>
   <div class="card-img-overlay">
     <h4 class="card-title">YouTube Concert Downloader</h4>
     <br></br>

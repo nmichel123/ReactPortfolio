@@ -1,10 +1,10 @@
 import React from 'react';
-import ReadMe from '../assets/ReadMeGen.png';
+import ReadMe from '../../assets/ReadMeGen.png';
 
 function ProjectItem4 () {
     return (
     <div class="card bg-dark text-white">
-  <img class="card-img" src = {ReadMe} alt = "Downloader"/>
+  <img class="card-img" src = {ReadMe} style={{ width:'100%' }} alt = "Downloader"/>
   <div class="card-img-overlay">
     <h4 class="card-title">README Generator</h4>
     <br></br>

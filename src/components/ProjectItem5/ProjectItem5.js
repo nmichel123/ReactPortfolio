@@ -1,10 +1,10 @@
 import React from 'react';
-import EmpMan from '../assets/EmployeeManSystem.png';
+import EmpMan from '../../assets/EmployeeManSystem.png';
 
 function ProjectItem5 () {
     return (
     <div class="card bg-dark text-white">
-  <img class="card-img" src = {EmpMan} alt = "Downloader"/>
+  <img class="card-img" src = {EmpMan} style={{ width:'100%' }} alt = "Downloader"/>
   <div class="card-img-overlay">
     <h4 class="card-title">Employee Management System</h4>
     <br></br>

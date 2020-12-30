@@ -6,7 +6,8 @@ function Footer () {
 <div>
     <nav class="navbar fixed-bottom navbar-dark bg-dark">
         <div class = "container">
-        <p id = "foot" class="navbar-center">Nico Michel's Portfolio</p>
+        <i class="fab fa-linkedin"></i>
+        <p id = "foot" class="navbar-center"> © 2020 Nico Michel</p>
         </div>
     </nav>
 </div>

@@ -1,10 +1,10 @@
 import React from 'react';
-import Budget from '../assets/offlineBudget.png';
+import Budget from '../../assets/offlineBudget.png';
 
 function ProjectItem6 () {
     return (
     <div class="card bg-dark text-white">
-  <img class="card-img" src = {Budget} alt = "Downloader"/>
+  <img class="card-img" src = {Budget} style={{ width:'100%' }} alt = "Downloader"/>
   <div class="card-img-overlay">
     <h4 class="card-title">Offline Budget Tracker</h4>
     <br></br>

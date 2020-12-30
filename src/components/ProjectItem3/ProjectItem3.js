@@ -1,10 +1,10 @@
 import React from 'react';
-import EmpDir from '../assets/employeedir.png';
+import EmpDir from '../../assets/employeedir.png';
 
 function ProjectItem3 () {
     return (
     <div class="card bg-dark text-white">
-  <img class="card-img" src = {EmpDir} alt = "Downloader"/>
+  <img class="card-img" src = {EmpDir} style={{ width:'100%' }} alt = "Downloader"/>
   <div class="card-img-overlay">
     <h4 class="card-title">Employee Directory</h4>
     <br/>

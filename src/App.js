@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import './App.css';
 import About from './pages/About';
+import PCarousel from './components/ProjectCarousel'
 import Contact from './pages/Contact';
-import Projects from "./pages/Projects";
 import Navbar from './components/Navbar';
 import Section from './components/Section'
 
@@ -17,19 +17,19 @@ class App extends Component {
           dark={false}
           id="projects"/>
       </div>
-        <Projects />
+        <PCarousel />
       <div className="aboutSect">
         <Section 
           title="About"
           dark={false}
-          id="abt"/>
+          id="about"/>
       </div>
         <About />
       <div className="contactSect">
         <Section
           title="Contact"
           dark={false}
-          id="abt"/>
+          id="contact"/>
       </div>
         <Contact />
       </div>
