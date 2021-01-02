@@ -1,11 +1,12 @@
 .projectsSect {
     margin-left: 30px;
-    padding-top: 110px;
+    padding-top: 130px;
     color: whitesmoke
 }
 
 .aboutSect {
-    margin-left: 30px;
+    margin-top: 60px;
+    padding-left: 30px;
     padding-bottom: 30px;
     color: whitesmoke
 }

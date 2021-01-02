@@ -1,4 +1,4 @@
-import React, {Component} from 'react'; 
+import React from 'react'; 
 import ContactInfo from '../components/Contact';
 import Footer from '../components/Footer';
 
