@@ -1,8 +1,9 @@
 import React from 'react';
-import Carousel from 'react-bootstrap/Carousel'
-import Downloader from '../../assets/downloader.png';
-import GBSearch from '../../assets/gbsearch.png'
-import './style.css'
+import Carousel from 'react-bootstrap/Carousel';
+import NoteTaker from '../../assets/notetaker.png';
+import GBSearch from '../../assets/gbsearch.png';
+import WeatherDash from '../../assets/weatherdash.png';
+import './style.css';
 
 function Projects () {
     return (
@@ -15,24 +16,47 @@ function Projects () {
       alt="First slide"
     />
   </div>
-  <div className="textBack">
     <Carousel.Caption>
+    <div className="textBack">
       <h3>Google Books Search</h3>
-      <p>This application is a search engine that works with the Google Books API in order to return all relevant books based on the title. With backend created with MongoDB and Express, the user can save  and delete books to a list and look through them after refreshing or closing the page.</p>
+      <p>This application is a search engine that works with the Google Books API in order to return all relevant books based on the title. In addition, backend functionality created with Atlas/MongoDB and Express allows the user to save and delete books to a list and look through them after refreshing or closing the page.</p>
       <p><a href= "https://github.com/nmichel123/GoogleBooks-Search" rel="noopener noreferrer" target="_blank"><i class="fab fa-github fa-2x"></i></a>                   <a href= "https://frozen-peak-99479.herokuapp.com/" rel="noopener noreferrer" target="_blank"><i class="fas fa-link fa-2x"></i></a></p>
       <p>Technologies Used: <i class="fab fa-html5 fa-lg"></i>  <i class="fab fa-css3 fa-lg"></i>  <i class="fab fa-js-square fa-lg"></i> <i class="fab fa-react fa-lg"></i> <i class="fab fa-node fa-lg"></i></p>
+      </div>
     </Carousel.Caption>
-    </div>
   </Carousel.Item>
   <Carousel.Item>
+  <div className="gradient">
     <img
       className="d-block w-100"
-      src={Downloader}
+      src={NoteTaker}
       alt="Second slide"
     />
+    </div>
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    <div className="textBack">
+      <h3>Note Taker</h3>
+      <p>A note taking application that saves notes on an Express server. The user is able to save a note with a title and body and view them in the stored notes section. The notes persist after the page is refreshed or closed.</p>
+      <p><a href= "https://github.com/nmichel123/Note-Taker" rel="noopener noreferrer" target="_blank"><i class="fab fa-github fa-2x"></i></a>                   <a href= "https://calm-citadel-96049.herokuapp.com/" rel="noopener noreferrer" target="_blank"><i class="fas fa-link fa-2x"></i></a></p>
+      <p>Technologies Used: <i class="fab fa-html5 fa-lg"></i>  <i class="fab fa-css3 fa-lg"></i>  <i class="fab fa-js-square fa-lg"></i> <i class="fab fa-react fa-lg"></i> <i class="fab fa-node fa-lg"></i></p>
+      </div>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+  <div className="gradient">
+    <img
+      className="d-block w-100"
+      src={WeatherDash}
+      alt="Third slide"
+    />
+    </div>
+    <Carousel.Caption>
+    <div className="textBack">
+      <h3>Weather Dashboard</h3>
+      <p>A weather dashboard that displays the weather of any given city, with information drawn from the OpenWeather API. The search history is logged in local storage and a link to the weather in that city is created underneath the search bar. The information provided is temperature, humidity, wind speed and UV index, as well as a five day forecast for the given city.</p>
+      <p><a href= "https://github.com/nmichel123/Weather-Dashboard" rel="noopener noreferrer" target="_blank"><i class="fab fa-github fa-2x"></i></a>                   <a href= "https://nmichel123.github.io/Weather-Dashboard/" rel="noopener noreferrer" target="_blank"><i class="fas fa-link fa-2x"></i></a></p>
+      <p>Technologies Used: <i class="fab fa-html5 fa-lg"></i>  <i class="fab fa-js-square fa-lg"></i></p>
+      </div>
     </Carousel.Caption>
   </Carousel.Item>
 

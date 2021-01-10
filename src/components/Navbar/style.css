@@ -10,7 +10,7 @@
   }
   .nav-content {
     position: fixed;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     z-index: 2; 
   }
   .nav-logo{

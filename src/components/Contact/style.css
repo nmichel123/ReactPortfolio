@@ -1,5 +1,6 @@
-#contact {
+.contactBtns {
     margin: auto;
-    /* display:inline-block; */
-    background-color: green;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
 }
