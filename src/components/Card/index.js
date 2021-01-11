@@ -4,8 +4,7 @@ import './style.css';
 
 function Card () {
     return (
-    <div id="me" class="card" >
-  <div class="card-body text-center">
+      <div className="aboutMe">
     <p class="card-text">Nico Michel is a full stack web developer and artist. 
     Educated at the University of Texas at Austin with a BS in Radio-Television and Film as well as a certification
     from the UT Austin coding boot camp, he works to create fluid websites and applications that assist people's lives and workflows.
@@ -17,7 +16,6 @@ function Card () {
     <a href={Resume} rel="noopener noreferrer" target="_blank" class="btn btn-dark">Link to Resume</a>
     <br />
     <br />
-  </div>
     </div>
     )
 }
