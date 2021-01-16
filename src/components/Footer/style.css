@@ -1,11 +1,15 @@
 #foot {
-    height: 80px;
     text-align: center;
     font-size: smaller;
-    color: gray;
+    color: black;
     margin: auto;
 }
 
-.navbar.fixed-bottom.navbar-dark.bg-dark {
+.footie {
+    background: rgba(144, 222, 248, 0.95);
+}
+
+.navbar.fixed-bottom {
+    background-color: rgba(144, 222, 248, 0.95);
     height: 40px;
 }

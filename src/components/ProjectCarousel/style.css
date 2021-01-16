@@ -19,17 +19,17 @@
 
 .textBack {
     background-color: gray;
-    background: -moz-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.87) 100%); 
-    background: -webkit-gradient(linear, left bottom, left top, color-stop(0%,rgba(0, 0, 0, 0.87)), color-stop(100%,rgba(0,0,0,0))); 
-    background: -webkit-linear-gradient(bottom, rgba(0,0,0,0) 0%,rgba(0, 0, 0, 0.87) 100%); 
-    background: -o-linear-gradient(bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.87) 100%); 
-    background: -ms-linear-gradient(bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.87) 100%); 
-    background: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.87) 100%); 
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.67) 100%); 
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0%,rgba(0, 0, 0, 0.67)), color-stop(100%,rgba(0,0,0,0))); 
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,0) 0%,rgba(0, 0, 0, 0.67) 100%); 
+    background: -o-linear-gradient(bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.67) 100%); 
+    background: -ms-linear-gradient(bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.67) 100%); 
+    background: linear-gradient(to top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.67) 100%); 
     padding-top: 90px;
     padding-right: 30px;
     padding-left: 30px;
 }
 
 .carousel.slide {
-  padding-top: 10px;
+  padding-top: 30px;
 }

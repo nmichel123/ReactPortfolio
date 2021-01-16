@@ -4,7 +4,7 @@
     top:8px;
   }
   .navbar {
-    margin-left: -20px;
+    margin-left: -16px;
     position: fixed;
     z-index: 2;
   }
@@ -29,9 +29,7 @@
     font-size: large;
     margin-top: -10px;
     z-index: 2;
-    background: rgba(184, 176, 176, 0.95);
+    background: rgba(144, 222, 248, 0.95);
     width: 100%; 
   }
-  .navbar :active {
-    border-bottom: 1px solid white 
-  }
+

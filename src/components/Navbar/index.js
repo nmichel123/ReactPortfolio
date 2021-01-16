@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "../../assets/nlogo.png";
+import logo from "../../assets/nicoLogo.png";
 import { Link, animateScroll as scroll } from "react-scroll";
 import "./style.css"
 
@@ -23,7 +23,7 @@ class Navbar extends Component {
                 to="projects"
                 spy={true}
                 smooth={true}
-                offset={-80}
+                offset={-75}
                 duration={500}>
               Projects</Link>
               <Link                 
@@ -31,7 +31,7 @@ class Navbar extends Component {
                 to="about"
                 spy={true}
                 smooth={true}
-                offset={-200}
+                offset={-90}
                 duration={500}>
               About</Link>
               <Link                 
@@ -39,7 +39,7 @@ class Navbar extends Component {
                 to="contact"
                 spy={true}
                 smooth={true}
-                offset={-350}
+                offset={-80}
                 duration={500}>
               Contact</Link>
               </div>

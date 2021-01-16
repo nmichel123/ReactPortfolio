@@ -4,6 +4,7 @@ import NoteTaker from '../../assets/notetaker.png';
 import GBSearch from '../../assets/gbsearch.png';
 import WeatherDash from '../../assets/weatherdash.png';
 import Workday from "../../assets/workday.png";
+import EmpSearch from "../../assets/employeedir.png";
 import './style.css';
 
 function Projects () {
@@ -47,16 +48,16 @@ function Projects () {
   <div className="gradient">
     <img
       className="d-block w-100"
-      src={WeatherDash}
+      src={EmpSearch}
       alt="Third slide"
     />
     </div>
     <Carousel.Caption>
     <div className="textBack">
-      <h3>Weather Dashboard</h3>
-      <p>A weather dashboard that displays the weather of any given city, with information drawn from the OpenWeather API. The search history is logged in local storage and a link to the weather, as well as a five day forecast in that city is created underneath the search bar.</p>
-      <p><a href= "https://github.com/nmichel123/Weather-Dashboard" rel="noopener noreferrer" target="_blank"><i class="fab fa-github fa-2x"></i></a>                   <a href= "https://nmichel123.github.io/Weather-Dashboard/" rel="noopener noreferrer" target="_blank"><i class="fas fa-link fa-2x"></i></a></p>
-      <p>Technologies Used: <i class="fab fa-html5 fa-lg"></i>  <i class="fab fa-js-square fa-lg"></i></p>
+      <h3>Employee Directory</h3>
+      <p>An employee directory built with React JS that allows a user to search for employees by first name and sort each column.</p>
+      <p><a href= "https://github.com/nmichel123/Employee-Directory" rel="noopener noreferrer" target="_blank"><i class="fab fa-github fa-2x"></i></a>                   <a href= "https://arcane-scrubland-39587.herokuapp.com/" rel="noopener noreferrer" target="_blank"><i class="fas fa-link fa-2x"></i></a></p>
+      <p>Technologies Used: <i class="fab fa-html5 fa-lg"></i>  <i class="fab fa-css3 fa-lg"></i> <i class="fab fa-js-square fa-lg"></i> <i class="fab fa-react fa-lg"></i></p>
       </div>
     </Carousel.Caption>
   </Carousel.Item>
@@ -77,7 +78,23 @@ function Projects () {
       </div>
     </Carousel.Caption>
   </Carousel.Item>
-
+  <Carousel.Item>
+  <div className="gradient">
+    <img
+      className="d-block w-100"
+      src={WeatherDash}
+      alt="Fifth slide"
+    />
+    </div>
+    <Carousel.Caption>
+    <div className="textBack">
+      <h3>Weather Dashboard</h3>
+      <p>A weather dashboard that displays the weather of any given city, with information drawn from the OpenWeather API. The search history is logged in local storage and a link to the weather, as well as a five day forecast in that city is created underneath the search bar.</p>
+      <p><a href= "https://github.com/nmichel123/Weather-Dashboard" rel="noopener noreferrer" target="_blank"><i class="fab fa-github fa-2x"></i></a>                   <a href= "https://nmichel123.github.io/Weather-Dashboard/" rel="noopener noreferrer" target="_blank"><i class="fas fa-link fa-2x"></i></a></p>
+      <p>Technologies Used: <i class="fab fa-html5 fa-lg"></i>  <i class="fab fa-js-square fa-lg"></i></p>
+      </div>
+    </Carousel.Caption>
+  </Carousel.Item>
 </Carousel>
 
 )}
