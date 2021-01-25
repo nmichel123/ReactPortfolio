@@ -21,7 +21,7 @@ function Projects () {
     <Carousel.Caption>
     <div className="textBack">
       <h3>Google Books Search</h3>
-      <p>A search engine that works with the Google Books API in order to return all relevant books based on the title. Backend functionality created with Atlas/MongoDB and Express allows the user to save and delete books to a persisting list.</p>
+      <p>A search engine that works with the Google Books API in order to return all relevant books based on the title. Backend functionality created with MongoDB Atlas and Express allows the user to save and delete books to a persisting list.</p>
       <p><a href= "https://github.com/nmichel123/GoogleBooks-Search" rel="noopener noreferrer" target="_blank"><i class="fab fa-github fa-2x"></i></a>                   <a href= "https://frozen-peak-99479.herokuapp.com/" rel="noopener noreferrer" target="_blank"><i class="fas fa-link fa-2x"></i></a></p>
       <p>Technologies Used: <i class="fab fa-html5 fa-lg"></i>  <i class="fab fa-css3 fa-lg"></i>  <i class="fab fa-js-square fa-lg"></i> <i class="fab fa-react fa-lg"></i> <i class="fab fa-node fa-lg"></i></p>
       </div>
