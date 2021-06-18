@@ -3,16 +3,19 @@
     right: 10px;
     top:8px;
   }
+
   .navbar {
     margin-left: -16px;
     position: fixed;
     z-index: 2;
   }
+
   .nav-content {
     position: fixed;
     color: rgb(0, 0, 0);
     z-index: 2; 
   }
+
   .nav-logo{
     z-index: 2; 
     margin-top: 10px;
@@ -20,6 +23,7 @@
     height: 60px;
     width: 60px; 
   }
+  
   .nav-black{
     position: fixed;
     display: flex;
